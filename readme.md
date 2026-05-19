@@ -126,3 +126,9 @@ If you do use it on a client site or a project you're proud of, a link back is w
 ## Credit
 
 Built by Louise (Lou) Kozlevcar @heylouise. Inspired by years of building WordPress sites the old-fashioned way and wanting a clean, modern starting point.
+
+## AI disclosure
+
+By the way, and I know someone will say it so let's get it out of the way: Yes, there was a significant degree of 'vibe coding' in this, but it has a looooottt of oversight from me. :) Just getting AI  to do some repetetive, heavy lifting stuff. For me, AI is never a substitute to the higer-level or bigger-picture decisions.
+
+There'd be a lot more egg on my face if I lied about not using AI, and someone saw some janky code in here. :) 
