@@ -109,9 +109,9 @@ WordPress requires this file at the theme root with a header comment. It can be 
 ```css
 /*
 Theme Name: Bulma Starter
-Theme URI: https://yourdomain.com/bulma-starter
+Theme URI: https://github.com/heylouise/bulma-starter-theme
 Author: Louise Kozlevcar
-Author URI: https://yourdomain.com
+Author URI: https://loukoz.com 
 Description: Reusable Bulma 1.x starter theme for small business sites. Configure via theme-variables.css and theme-setup.php.
 Version: 1.0.0
 Requires at least: 6.0
