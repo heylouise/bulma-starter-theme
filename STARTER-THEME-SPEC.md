@@ -943,4 +943,4 @@ The bits most likely to trip you up:
 3. **ACF flexible content rendering** — the `have_rows()` / `the_row()` / `get_sub_field()` pattern is fiddly. Reference: [advancedcustomfields.com/resources/flexible-content/](https://www.advancedcustomfields.com/resources/flexible-content/).
 4. **Dark mode for images** — some logos look terrible inverted. Add a `.no-dim` class to those images to opt them out (already handled in `theme-variables.css`).
 
-Ping me on any specific file when you're building and I'll help debug.
+
