@@ -125,4 +125,4 @@ If you do use it on a client site or a project you're proud of, a link back is w
 
 ## Credit
 
-Built by heylouise. Inspired by years of building WordPress sites the old-fashioned way and wanting a clean, modern starting point.
+Built by Louise (Lou) Kozlevcar @heylouise. Inspired by years of building WordPress sites the old-fashioned way and wanting a clean, modern starting point.
