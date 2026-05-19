@@ -1,0 +1,53 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Node (in case you ever add a build step later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Local environment
+.env
+.env.local
+
+# WordPress-specific
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Theme working files
+*.bak
+*.tmp
+/sass-cache/
+.sass-cache/
+
+# Local ACF JSON sync (uncomment if you DON'T want to commit field groups)
+# acf-json/
+
+# Archive files
+*.zip
+*.tar.gz
