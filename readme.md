@@ -23,7 +23,7 @@ A classic PHP WordPress theme (not a block/FSE theme) for developers who like th
 
 - WordPress 6.0+
 - PHP 8.0+
-- [ACF Pro](https://www.advancedcustomfields.com/pro/) (optional for the ACF flexible content builder, but required for hero section fields)
+- [ACF Pro](https://www.advancedcustomfields.com/pro/) (optional for the ACF flexible content builder)
 - [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) (recommended for breadcrumbs and meta)
 
 ## Installation
