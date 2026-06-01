@@ -55,6 +55,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
                             'depth'          => 2,
                             'fallback_cb'    => false,
                             'items_wrap'     => '%3$s',
+                            'walker'       =>  new Bulma_NavWalker(),
+                            'fallback_cb'      =>  'Bulma_NavWalker::fallback'
                             // If you grab a Bulma navwalker, add: 'walker' => new Bulma_Navwalker(),
                         ] );
                     }

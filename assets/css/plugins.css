@@ -1,0 +1,87 @@
+/* Lightweight Accordion */
+
+.wp-block-cm-lightweight-accordion details {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  background: var(--color-bg);
+}
+.wp-block-cm-lightweight-accordion summary {
+  padding: 1rem 1.25rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+.wp-block-cm-lightweight-accordion summary::-webkit-details-marker { display: none; }
+.wp-block-cm-lightweight-accordion details[open] summary {
+  border-bottom: 1px solid var(--color-border);
+}
+.wp-block-cm-lightweight-accordion .accordion-content {
+  padding: 1rem 1.25rem;
+}
+
+/* Tablepress */
+
+.tablepress {
+  font-family: var(--font-body);
+  border-collapse: collapse;
+  width: 100%;
+}
+.tablepress th {
+  background: var(--color-bg-shaded);
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--color-border);
+}
+.tablepress td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.tablepress .row-hover tr:hover td {
+  background: var(--color-bg-shaded);
+}
+
+/* Ninjaforms */
+.nf-form-content {
+  font-family: var(--font-body);
+  max-width: 100%;
+}
+.nf-form-content input[type="text"],
+.nf-form-content input[type="email"],
+.nf-form-content input[type="tel"],
+.nf-form-content textarea,
+.nf-form-content select {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+.nf-form-content input[type="text"]:focus,
+.nf-form-content input[type="email"]:focus,
+.nf-form-content textarea:focus {
+  border-color: var(--brand-primary);
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand-primary) 25%, transparent);
+}
+.nf-form-content .nf-field-label label {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+.nf-form-content input[type="button"],
+.nf-form-content .ninja-forms-field[type="button"] {
+  background: var(--brand-primary);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.25rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  cursor: pointer;
+}
+.nf-form-content input[type="button"]:hover {
+  background: var(--brand-secondary);
+}
