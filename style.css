@@ -1,0 +1,15 @@
+/*
+Theme Name: Bulma Starter
+Theme URI: https://github.com/heylouise/bulma-starter-theme
+Author: Louise Kozlevcar
+Author URI: https://loukoz.com 
+Description: Reusable Bulma 1.x starter theme for small business sites. Configure via theme-variables.css and theme-setup.php.
+Version: 1.0.0
+Requires PHP: 8.0
+License: MIT
+License URI: https://mit-license.org/ 
+Text Domain: bulma-starter
+*/
+
+/* All real styles live in theme-variables.css and assets/css/. */
+/* This file exists for the WP theme header only. */
