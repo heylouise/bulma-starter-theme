@@ -19,6 +19,11 @@ function bulma_starter_config( $key = null, $default = null ) {
     return $bulma_starter_config[ $key ] ?? $default;
 }
 
+// Tags page will break if we don't do this. Don't edit or remove unless you know what you're doing.
+add_filter( 'body_class', function( $classes ) {
+    return array_diff( $classes, [ 'tag' ] );
+});
+
 // ---------------------------------------------------------------------------
 // Safety fallback if ACF is missing
 // ---------------------------------------------------------------------------
