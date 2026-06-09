@@ -9,6 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header();
 ?>
+<?php while ( have_posts() ) : the_post(); ?>
 
 <?php if ( bulma_starter_config( 'show_breadcrumbs' ) && function_exists( 'yoast_breadcrumb' ) ) : ?>
     <div class="breadcrumb-wrapper section is-small">
@@ -21,7 +22,11 @@ get_header();
 <section class="section">
     <div class="container">
 
-        <?php while ( have_posts() ) : the_post(); ?>
+        <?php if ( has_post_thumbnail() ) : ?>
+        <figure class="post-featured-image image">
+            <?php the_post_thumbnail( 'full' ); ?>
+            </figure>
+        <?php endif; ?>
 
             <article id="post-<?php the_ID(); ?>" <?php post_class( 'single-post' ); ?>>
 
@@ -49,11 +54,7 @@ get_header();
                     </div>
                 </header>
 
-                <?php if ( has_post_thumbnail() ) : ?>
-                    <figure class="post-featured-image image">
-                        <?php the_post_thumbnail( 'large' ); ?>
-                    </figure>
-                <?php endif; ?>
+ 
 
                 <div class="content post-content">
                     <?php the_content(); ?>
@@ -88,16 +89,13 @@ get_header();
                 </div>
             </nav>
 
-            <?php
-            if ( comments_open() || get_comments_number() ) {
-                comments_template();
-            }
-            ?>
 
-        <?php endwhile; ?>
+        
 
     </div>
 </section>
+
+<?php endwhile; ?>
 
 <?php
 get_footer();

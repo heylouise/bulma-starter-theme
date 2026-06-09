@@ -19,6 +19,9 @@ function bulma_starter_config( $key = null, $default = null ) {
     return $bulma_starter_config[ $key ] ?? $default;
 }
 
+// ---------------------------------------------------------------------------
+// Fix for tag archive page breaking because Bulma CSS classname conflict.
+// ---------------------------------------------------------------------------
 // Tags page will break if we don't do this. Don't edit or remove unless you know what you're doing.
 add_filter( 'body_class', function( $classes ) {
     return array_diff( $classes, [ 'tag' ] );
